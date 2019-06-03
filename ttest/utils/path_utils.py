@@ -2,9 +2,9 @@ import os
 import json
 import tarfile
 
-from utils.constants import SUPPORTED_WALLETS
-from utils.deprecate import deprecated
-from utils.paths import data_root, ensure_directory
+from constants import SUPPORTED_WALLETS
+from deprecate import deprecated
+from paths import data_root, ensure_directory
 from marketplace_errors import MarketplaceJSONError
 
 

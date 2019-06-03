@@ -8,9 +8,9 @@ import time
 from marketplace_errors import (
     MarketplaceHTTPRequest, MarketplaceWalletNotSupported,
     MarketplaceEmptySignature)
-from utils.path_utils import (
+from path_utils import (
     get_user_pubaddr, save_user_pubaddr)
-from utils.constants import AUTH_SERVER, SUPPORTED_WALLETS
+from constants import AUTH_SERVER, SUPPORTED_WALLETS
 
 
 def get_key_secret(pubAddr, wallet):

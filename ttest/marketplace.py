@@ -21,16 +21,16 @@ from marketplace_errors import (
     MarketplaceDatasetNotFound,
     MarketplaceNoAddressMatch, MarketplaceHTTPRequest,
     MarketplaceNoCSVFiles, MarketplaceRequiresPython3)
-from utils.auth_utils import get_key_secret, \
+from auth_utils import get_key_secret, \
     get_signed_headers
-from utils.eth_utils import bin_hex, from_grains, \
+from eth_utils import bin_hex, from_grains, \
     to_grains
-from utils.path_utils import get_bundle_folder, \
+from path_utils import get_bundle_folder, \
     get_data_source_folder, get_marketplace_folder, \
     get_user_pubaddr, get_temp_bundles_folder, extract_bundle, \
     save_user_pubaddr
 
-from utils.constants import (
+from constants import (
     LOG_LEVEL, AUTH_SERVER, ETH_REMOTE_NODE, MARKETPLACE_CONTRACT,
     MARKETPLACE_CONTRACT_ABI, ENIGMA_CONTRACT, ENIGMA_CONTRACT_ABI,
     TERMS_AND_CONDITIONS)
